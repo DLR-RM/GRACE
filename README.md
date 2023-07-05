@@ -86,7 +86,7 @@ After 27 epoches this leads to AUC of 0.85 on validation set.
 
 
 ## Citation
-If you find our work usefull, please consider citaing it:
+If you find our work usefull, please consider citing it:
 ```
 @article{atad2023efficient,
   title={Efficient and Feasible Robotic Assembly Sequence Planning via Graph Representation Learning},
