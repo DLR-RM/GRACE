@@ -18,7 +18,7 @@ Automatic Robotic Assembly Sequence Planning (RASP) can significantly improve pr
 
 ### Density-based Feasibility Learning with Normalizing Flows for Introspective Robotic Assembly
 
-<img src="images/NFs_ASP_teaser.jpeg" alt="GRACE" height="300">
+<img src="images/NFs_ASP_teaser.png" alt="GRACE" height="300">
 
 
 Machine Learning (ML) models in Robotic Assembly Sequence Planning (RASP) need to be introspective on the predicted solutions, i.e. whether they are feasible or not, to circumvent potential efficiency degradation. Previous works need both feasible and infeasible examples during training. However, the infeasible ones are hard to collect sufficiently when re-training is required for swift adaptation to new product variants. In this work, we propose a density-based feasibility learning method that requires only feasible examples. Concretely, we formulate the feasibility learning problem as Out-of-Distribution (OOD) detection with Normalizing Flows (NF), which are powerful generative models for estimating complex probability distributions. Empirically, the proposed method is demonstrated on robotic assembly use cases and outperforms other single-class baselines in detecting infeasible assemblies. We further investigate the internal working mechanism of our method and show that a large memory saving can be obtained based on an advanced variant of NF.
