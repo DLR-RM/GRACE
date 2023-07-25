@@ -4,7 +4,7 @@ This is the repository for our two papers:
 1. Atad, M.\*, Feng, J.\*, Rodríguez, I., Durner, M. and Triebel, R., 2023. Efficient and Feasible Robotic Assembly Sequence Planning via Graph Representation Learning. arXiv preprint arXiv:2303.10135. 
 2. Feng, J.\*, Atad, M.\*, Rodríguez, I., Durner, M., Günnemann, S., and Triebel, R., 2023. Density-based Feasibility Learning with Normalizing Flows for Introspective Robotic Assembly. 
 
-The [first](https://arxiv.org/abs/2303.10135) was accepted to IROS 2023 and the [second](https://arxiv.org/abs/2307.01317) to the RSS 2023 Assembly Workshop.
+The [first](https://arxiv.org/abs/2303.10135) was accepted to IROS 2023 and the [second](https://arxiv.org/abs/2307.01317) to the [RSS 2023 Workshop on Assembly and AI](https://sites.google.com/nvidia.com/industrial-assembly/home).
 
 \* Equal contributers
 
