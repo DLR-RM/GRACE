@@ -81,8 +81,8 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="")
 
-    parser.add_argument("--dataset_path", type=str, default="/home/atad_ma/Projects/datasets/")
-    parser.add_argument("--output_path", type=str, default="/home/atad_ma/Projects/GNN4RoboAssembly/pl_checkpoints")
+    parser.add_argument("--dataset_path", type=str, default="datasets/")
+    parser.add_argument("--output_path", type=str, default="GNN4RoboAssembly/pl_checkpoints")
     parser.add_argument("--train_ratio", type=float, default=0.85, help="Train set size")
     parser.add_argument("--learning_rate", type=float, default=0.002182, help="Learning Rate")
     parser.add_argument("--dropout", type=float, default=0, help="Dropout Rate")
@@ -101,9 +101,9 @@ if __name__ == "__main__":
     parser.add_argument("--aux_loss",  action='store_true', help="Should distance be used as aux loss")
 
     # cross validate args
-    parser.add_argument("--raw_dir", type=str, default="/home/rodr_is/data_matan/", help="Path to assembly folders")
-    parser.add_argument("--assemblies_cache", type=str, default="/home/atad_ma/Projects/datasets/all_cache.pkl", help="Cache of preprocessed raw files")
-    parser.add_argument("--dataset_cache_root", type=str, default="/home/atad_ma/Projects/datasets/cache/", help="Cache of preprocessed raw files")
+    parser.add_argument("--raw_dir", type=str, default="data_matan/", help="Path to assembly folders")
+    parser.add_argument("--assemblies_cache", type=str, default="Projects/datasets/all_cache.pkl", help="Cache of preprocessed raw files")
+    parser.add_argument("--dataset_cache_root", type=str, default="Projects/datasets/cache/", help="Cache of preprocessed raw files")
     parser.add_argument("--infeasible", type=str, default="exclude_all", help="Either exclude_all, intermediate_only, include_all")
     parser.add_argument("--ranges", type=str, nargs='*', default="0,19999", help="Index range for assembly directory")
     parser.add_argument("--n_splits", type=int, default=5, help="Number of CV folds")
